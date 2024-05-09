@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+body{
+    background-color: #113f67;
+}
+div{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: #a2a8d3;
+    background-color: #113f67;
+    border: #e7eaf6 solid 6px;
+    padding: 2%;
+    margin: 2%;
+    max-width: 100%;
+}
+div{
+    width: 96%;
+    margin: auto;
+    max-width: 100%;
+}
+nav {
+    background-color: #113f67;
+    padding-left: 0;
+    border: #e7eaf6 solid 6px;
+    max-width: 100%;
+    margin: auto;
+}
+nav li{
+    border: #e7eaf6 3px solid;
+    max-width: 100%;
+    font-variant: all-small-caps;
+    padding: .25%;
+    font-size: large;
+    margin: auto;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0.521vw	0.521vw	0.521vw;
+    padding: 1% 0;
+    max-width: 100%;
+    /*display: flex;*/
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    color: #a2a8d3;
+}
+main{
+    background-color: #113f67;
+    border: #e7eaf6 solid 6px;
+    color: rgb(162, 168, 211);
+    max-width: 100%;
+    padding: 7% 5%;
+    margin-left: 1%;
+}
+main *{
+    margin: 2% 0;
+}
+footer{
+    background-color: #113f67;
+    /*text-align: center;*/
+    color: #c6daf3;
+    text-decoration: none;
+    display: inline;
+}
+a{
+    color: #c6daf3;
+}
+.space{
+    text-align: center;
+    margin: 0 1%;
+    max-width: 100%;
+}
+li a:hover{
+    background-color: #e7eaf6;
+}
+/*.banana {*/
+/*    !*display: flex;*!*/
+/*    float: left;*/
+/*    !*flex-direction: row;*!*/
+/*    width: 30%;*/
+/*}*/
+.banana {
+    /*display: flex;*/
+    float: left;
+    /*flex-direction: row;*/
+    width: 30%;
+}
+/*#boat{*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: row;*!*/
+/*    width: 70%;*/
+/*    justify-content: space-around;*/
+/*    float: left;*/
+/*}*/
+#container{
+    /*display: flex;*/
+    float: left;
+    /*flex-direction: row;*/
+    width: 70%;
+    /*visibility: hidden;*/
+}
+#page-wrapper{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#apple{
+    visibility: hidden;
+    /*margin: 2%;*/
+}
+@media screen and (max-width:768px) {
+    div#container {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        /*float: ;*/
+    }
+    .banana{
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        padding: 2%;
+    }
+    .banana ul, li{
+        display: inline;
+        max-width: 100%;
+        margin: auto;
+    }
+    main{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    Nav {
+        width: 40%;
+    }
+
+    main {
+        width: 60%;
+    }
+}

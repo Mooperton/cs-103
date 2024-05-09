@@ -1,0 +1,63 @@
+*{
+   margin: 10px 10px;
+}
+body{
+
+}
+div#page-wrapper {
+    width: 90%;
+    margin: auto;
+    background-color: #e8cb17;
+    text-align: center;
+    border: #bba0c7 solid 4px;
+    list-style: none;
+}
+nav#cooking ul{
+    list-style: none;
+    border: #001b6e solid 2px;
+}
+li#grass{
+    color: darkgreen;
+}
+li#water{
+    color: #5f90ce;
+}
+li#air{
+    color: #449d9d;
+}
+li#fire{
+    color: #69c0c0;
+}
+header{
+    text-align: center;
+    color: #c6daf3;
+    background-color: #bea453;
+    font-variant-caps: all-small-caps;
+    border: #001b6e solid 3px;
+}
+h1, h3{
+    font-variant-caps: all-small-caps;
+}
+ol#swag{
+  margin: 20px;
+}
+li#poop{
+    background-color: #9f6363;
+}
+li#piss{
+     background-color: #dc1a1a;
+}
+li#fart{
+      background-color: #c72424;
+}
+li#cam{
+       background-color: #ff6b6b;
+}
+span.emoji{
+    color: blueviolet;
+}
+p{
+    background-color: #c6daf3;
+}
+
+

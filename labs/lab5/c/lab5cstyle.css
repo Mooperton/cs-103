@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0 1px 1px 0;
+    box-sizing: border-box;
+}
+div{
+    width: 90%;
+    margin: auto;
+    background-color: #d25151;
+    text-align: center;
+    border: #e7b516 solid 2px;
+    max-width: 100%;
+    .ceviche-one-regular {
+        font-family: "Ceviche One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+header{
+    text-align: center;
+    color: #5e2b2b;
+    background-color: #d25151;
+    border: #e7b516 solid 2px;
+    max-width: 100%;
+}
+nav{
+    background-color: #d25151;
+    padding-left: 0;
+    border: #e7b516 solid 2px;
+    margin: auto;
+}
+nav li{
+    display: inline;
+    border: #e7b516 2px solid;
+    margin: auto;
+    color: #5e2b2b;
+}
+nav ul{
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #5e2b2b;
+    padding: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: #5e2b2b;
+}
+main{
+    background-color: #d25151;
+    color: #5e2b2b;
+    border: #e7b516 solid 2px;
+    max-width: 100%;
+}
+footer{
+    background-color: #d25151;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: #5e2b2b;
+}
+

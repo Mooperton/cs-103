@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+/*body{*/
+/*    background-color: #f3e810;*/
+/*}*/
+#output {
+    display: block;
+}
+#container{
+    max-width: 100%;
+}
+/*.banana{*/
+/* margin: 2%;*/
+/*}*/
+/*.playButton {*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    padding: 10px 20px;*/
+/*    font-size: 16px;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*#playButton:hover {*/
+/*    background-color: #fcd116;*/
+/*    color: #22521e;*/
+/*}*/
+div{
+    width: 96%;
+    margin: auto;
+    background-color: #146e00;
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: #000000;
+    background-color: #f6e30a;
+    border: #000000 solid 6px;
+    padding: 2%;
+    margin: 2%;
+    max-width: 100%;
+}
+nav {
+    background-color: #146e00;
+    border: #000000 solid 6px;
+    margin: auto;
+    padding-left: 0;
+    max-width: 100%;
+}
+nav li{
+    display: inline;
+    border: #000000 3px solid;
+    margin: 2% 2%;
+    max-width: 100%;
+    font-variant: all-small-caps;
+    padding: .25%;
+    font-size: large;
+}
+nav ul{
+    list-style: none;
+    background-color: #f6e30a;
+    text-align: center;
+    margin: 0.521vw	0.521vw	0.521vw;
+    padding: 1% 0;
+    max-width: 100%;
+    /*display: flex;*/
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    color: #146e00;
+}
+main{
+    background-color: #f6e30a;
+    border: #000000 solid 6px;
+    color: #146e00;
+    margin-left: 1%;
+    padding: 7% 5%;
+    max-width: 100%;
+}
+main *{
+    margin: 2% 0;
+}
+footer{
+    margin: 0 0 .295vw .295vw;
+    text-align: center;
+    color: #f6e30a;
+    display: inline;
+}
+li a:hover{
+    background-color: #061521;
+}
+a{
+    color: #f6e30a;
+}
+img{
+    /*border: #69c0c0 solid 6px;*/
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+#container{
+    /*display: flex;*/
+    /*float: left;*/
+    /*flex-direction: row;*/
+    width: 80%;
+    /*visibility: hidden;*/
+    padding:  2%
+}
+#page-wrapper{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#apple{
+    margin: 2%;
+    visibility: visible;
+}
+#audio{
+
+}
+/*footer{*/
+/*    clear: both;*/
+/*}*/
+@media screen and (max-width:768px) {
+    div#container {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        /*float: ;*/
+    }
+    .banana{
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        padding: 2%;
+    }
+    .banana ul, li{
+        display: inline;
+        max-width: 100%;
+        margin: auto;
+    }
+    main{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    Nav {
+        width: 40%;
+    }
+
+    main {
+        width: 60%;
+    }
+}
+

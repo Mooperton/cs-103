@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001b6e;
+}
+#container{
+    max-width: 100%;
+}
+/*.banana{*/
+/* margin: 2%;*/
+/*}*/
+div{
+    width: 96%;
+    margin: auto;
+    background-color: #001b6e;
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: #e2e8b8;
+    background-color: #001b6e;
+    border: #69c0c0 solid 6px;
+    padding: 2%;
+    margin: 2%;
+    max-width: 100%;
+}
+nav {
+    background-color: #001b6e;
+    border: #69C0C0FF solid 6px;
+    margin: auto;
+    padding-left: 0;
+    max-width: 100%;
+}
+nav li{
+    /*display: inline;*/
+    border: #69c0c0 3px solid;
+    margin: auto;
+    max-width: 100%;
+    font-variant: all-small-caps;
+    padding: .25%;
+    font-size: large;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0.521vw	0.521vw	0.521vw;
+    padding: 1% 0;
+    max-width: 100%;
+    /*display: flex;*/
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    color: #e2e8b8;
+}
+main{
+    background-color: #001b6e;
+    border: #69c0c0 solid 6px;
+    color: #e2e8b8;
+    margin-left: 1%;
+    padding: 7% 5%;
+    max-width: 100%;
+}
+main *{
+    margin: 2% 0;
+}
+footer{
+    margin: 0 0 .295vw .295vw;
+    text-align: center;
+    color: #c6daf3;
+    display: inline;
+}
+li a:hover{
+    background-color: #061521;
+}
+a{
+     color: #c6daf3;
+}
+img{
+    border: #69c0c0 solid 6px;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+.banana {
+    /*display: flex;*/
+    float: left;
+    /*flex-direction: row;*/
+    width: 30%;
+}
+#container{
+    /*display: flex;*/
+    float: left;
+    /*flex-direction: row;*/
+    width: 70%;
+    /*visibility: hidden;*/
+}
+#page-wrapper{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#apple{
+    margin: 2%;
+    visibility: hidden;
+}
+/*footer{*/
+/*    clear: both;*/
+/*}*/
+@media screen and (max-width:768px) {
+    div#container {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        /*float: ;*/
+    }
+    .banana{
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        padding: 2%;
+    }
+    .banana ul, li{
+        display: inline;
+        max-width: 100%;
+        margin: auto;
+    }
+    main{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    Nav {
+        width: 40%;
+    }
+
+    main {
+        width: 60%;
+    }
+}
+
+/*Examples:@media screen and (max-width:520px){*/
+/*    div#container{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    width:100%;*/
+/*}*/
+/*    Nav{width:40%;}*/
+/*    main{width:60%;}*/

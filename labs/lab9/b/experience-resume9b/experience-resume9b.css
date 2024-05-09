@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6e0065;
+}
+#output{
+    display: none;}
+#container{
+    max-width: 100%;
+}
+/*.banana{*/
+/* margin: 2%;*/
+/*}*/
+div{
+    width: 96%;
+    margin: auto;
+    background-color: #5f006e;
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: #e8b8cc;
+    background-color: #6a006e;
+    border: #ad69c0 solid 6px;
+    padding: 2%;
+    margin: 2%;
+    max-width: 100%;
+}
+#apple{
+    margin: 2%;
+    visibility: hidden;
+}
+nav {
+    background-color: #5a006e;
+    border: #ba69c0 solid 6px;
+    margin: auto;
+    padding-left: 0;
+    max-width: 100%;
+}
+nav li{
+    /*display: inline;*/
+    border: #c069bf 3px solid;
+    margin: auto;
+    max-width: 100%;
+    font-variant: all-small-caps;
+    padding: .25%;
+    font-size: large;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0.521vw	0.521vw	0.521vw;
+    padding: 1% 0;
+    max-width: 100%;
+    /*display: flex;*/
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    color: #c6b8e8;
+}
+main{
+    background-color: #35006e;
+    border: #9369c0 solid 6px;
+    color: #d8b8e8;
+    margin-left: 1%;
+    padding: 7% 5%;
+    max-width: 100%;
+}
+main *{
+    margin: 2% 0;
+}
+footer{
+    margin: 0 0 .295vw .295vw;
+    text-align: center;
+    color: #d8c6f3;
+    display: inline;
+}
+li a:hover{
+    background-color: #200621;
+}
+a{
+    color: #c27cfa;
+}
+img{
+    border: #7569c0 solid 6px;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.banana {
+    /*display: flex;*/
+    float: left;
+    /*flex-direction: row;*/
+    width: 30%;
+}
+#container{
+    /*display: flex;*/
+    float: left;
+    /*flex-direction: row;*/
+    width: 70%;
+}
+#page-wrapper{
+    float: left;
+    width: 100%;
+}
+#apple{
+    margin: 2%;
+}
+
+/*footer{*/
+/*    clear: both;*/
+/*}*/
+
+@media screen and (max-width:768px) {
+    div#container {
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        /*float: ;*/
+
+    }
+    .banana{
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        float: none;
+        width: 100%;
+        padding: 2%;
+    }
+    .banana ul, li{
+        display: inline;
+        max-width: 100%;
+        margin: auto;
+    }
+    main{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    Nav {
+        width: 40%;
+    }
+
+    main {
+        width: 60%;
+    }
+}
